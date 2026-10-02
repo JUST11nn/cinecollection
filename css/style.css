@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f5f7;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+h1 {
+  color: #d62828;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+nav a,
+a {
+  color: #d62828;
+  text-decoration: none;
+}
+
+.carte {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.formulaire,
+.danger {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
+
+fieldset input {
+  width: auto;
+}
+
+.bouton {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bouton-principal {
+  background: #d62828;
+  color: white;
+}
+
+.bouton-supprimer {
+  background: #d62828;
+  color: white;
+}
